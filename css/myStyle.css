@@ -1,0 +1,66 @@
+#imglogo
+{
+    height:70px;
+    width: 70px;
+}
+body{
+    background-color: #00000F;
+
+}
+
+#propic
+{
+    width: 50%;
+
+}
+#headernav
+{
+    background-color: black;
+   opacity: .5; /*to make transparent*/
+    height: 100px;
+
+}
+.footernav
+{
+    background-color: black;
+
+}
+.midrow
+{
+    /*need to see this part i did it manually */
+    height:100px;
+    background-color: #00000F;
+}
+.icon
+{
+    height:50px;
+    width:50px;
+}
+a{
+    text-decoration: none;
+}
+#canvas1{
+    border:1px solid red;
+}
+.div1
+{
+    height: 400px;
+}
+
+#div1 {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: red;
+    position: relative;
+    animation-name: example;
+    animation-duration: 10s;
+}
+/* Standard syntax */
+@keyframes example {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+}
